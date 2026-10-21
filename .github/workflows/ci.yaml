@@ -48,9 +48,9 @@ jobs:
       - name: Deploy to the server              # <- the pasted part starts here
         uses: appleboy/ssh-action@v1.2.0
         with:
-          host: ${{ secrets.SSH_HOST }}/blog:latest
-          port: ${{ secrets.SSH_PORT }}/blog:latest
-          username: ${{ secrets.SSH_USER }}/blog:latest
-          password: ${{ secrets.SSH_PASSWORD }}/blog:latest
+          host: ${{ secrets.SSH_HOST }}
+          port: ${{ secrets.SSH_PORT }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_PASSWORD }}
           script: |
             bash ~/rayhon/deploy.sh ${{ secrets.DOCKERHUB_USERNAME }}   # <- anna = the student's folder  
