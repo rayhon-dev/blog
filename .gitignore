@@ -1,2 +1,15 @@
 node_modules/
 dist/
+# Python/Django/ML uchun odatiy
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+db.sqlite3
+*.pt
+*.pth
+*.onnx
+data/
+media/
+.ipynb_checkpoints/
