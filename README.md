@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal blog: HTML + JavaScript, built with a pipeline
 
 A tiny blog with no framework. The text of the blog lives in two data files, the page is drawn by JavaScript,
@@ -55,3 +56,6 @@ cd-step.yaml    the deploy step students add to the workflow
 LAB.md          the lab steps for students
 teacher/        the finished workflow (answer key): remove it from the student template
 ```
+=======
+# blog
+>>>>>>> d967fae5e6bfbf40ef6ad61e95bef8da460532b7
